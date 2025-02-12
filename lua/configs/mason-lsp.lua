@@ -14,9 +14,8 @@ masonlsp.setup({
   "jsonls",
   "eslint",
   "pyright",
-  "csharp_language_server",
   "kotlin_language_server",
-  "java_language_server",
+  "harper_ls",
   "markdown_oxide",
   "groovyls",
   "bashls",
@@ -25,7 +24,6 @@ masonlsp.setup({
   "golangci_lint_ls",
   "graphql",
   "powershell_es",
-  "r_language_server",
   "sqls",
   "yamlls"},
 })

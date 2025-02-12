@@ -62,18 +62,7 @@ nvim_lsp.pyright.setup({
 	capabilities = capabilities,
 })
 
--- Python
-nvim_lsp.csharp_ls.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-})
-
 nvim_lsp.kotlin_language_server.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-})
-
-nvim_lsp.java_language_server.setup({
 	on_attach = on_attach,
 	capabilities = capabilities,
 })
@@ -116,7 +105,7 @@ nvim_lsp.powershell_es.setup({
 	capabilities = capabilities,
 })
 
-nvim_lsp.r_language_server.setup({
+nvim_lsp.harper_ls.setup({
 	on_attach = on_attach,
 	capabilities = capabilities,
 })

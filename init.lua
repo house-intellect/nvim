@@ -1,4 +1,6 @@
 require("settings")
+vim.api.nvim_set_option("clipboard", "unnamed")
+
 
 vim.opt.guifont='JetBrainsMonoNerdFontMono-Regular.ttf'
 
