@@ -1,6 +1,8 @@
 require("settings")
-vim.api.nvim_set_option("clipboard", "unnamed")
-
+vim.api.nvim_set_option("clipboard", "unnamedplus")
+vim.o.clipboard = "unnamedplus" -- For X11 clipboard (primary and clipboard)
+-- or
+-- vim.o.clipboard = "unnamed" -- For X11 selection (primary only)
 
 vim.opt.guifont='JetBrainsMonoNerdFontMono-Regular.ttf'
 
